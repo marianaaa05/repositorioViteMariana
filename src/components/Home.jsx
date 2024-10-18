@@ -6,7 +6,7 @@ import foto from "../assets/proyectos/foto.png"
 const Home = () => {
   return (
 
-    <div name="home" className="w-full h-screen bg-[#02302D] text-white">
+    <div name="home" className="w-full h-screen bg-[#02302D] text-white flex items-center justify-center">
       {/* Container */}
       <div mt-60 className="w-[400px] flex flex-col justify-left items-left">
         <img

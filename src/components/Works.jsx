@@ -1,61 +1,64 @@
 import React from "react";
-import CoinBase from "../assets/proyectos/coinbase.jpg";
-import SistemaTicket from "../assets/proyectos/sistema-ticket.jpg";
-import TextToSpeech from "../assets/proyectos/text-to-speech.jpg";
-import Calculadora from "../assets/proyectos/calculadora.jpg";
-import Portfolio from "../assets/proyectos/portafolio.jpg";
-import PortfolioV2 from "../assets/proyectos/portafolioV2.jpg"
-import CasoFonasa from "../assets/proyectos/fonasa.png"
-import Weather from "../assets/proyectos/weather.jpg"
+
+import portafolio from "../assets/proyectos/portafolio.jpeg"
+import Tienda from "../assets/proyectos/tienda.jpeg"
+import demoapi from "../assets/proyectos/demoapi.jpeg"
+import apicrud from "../assets/proyectos/apicrud.jpeg";
+import maquillajeonline from "../assets/proyectos/maquillajeonline.jpeg"
+import apichatgpt from "../assets/proyectos/apichatgpt.jpeg"
+import appheroes from "../assets/proyectos/appheroes.jpeg"
 
 const Works = () => {
   const proyectos = [
     {
       id: 1,
-      src: PortfolioV2,
+      src: portafolio,
       demo: "https://diegovistoso.netlify.app/",
-      code: "https://github.com/diegoivg98/portafolio-DV",
+      code: "https://github.com/marianaaa05/repositorioViteMariana",
+      texto: "Portafolio",
     },
     {
       id: 2,
-      src: Portfolio,
-      demo: "https://diegoivg98.github.io/Portfolio/",
-      code: "https://github.com/diegoivg98/Portfolio",
+      src: Tienda,
+      demo: "https://tienda-ochre.vercel.app/",
+      code: "https://github.com/marianaaa05/tienda",
+      texto: "Comercio Electrónico",
     },
     {
       id: 3,
-      src: Weather,
-      demo: "https://app-clima-dv.netlify.app/",
-      code: "https://github.com/diegoivg98/app_clima",
+      src: demoapi,
+      demo: "https://apimovie-theta.vercel.app/",
+      code: "https://github.com/marianaaa05/apimovie",
+      texto: "API Movie",
     },
     {
       id: 4,
-      src: Calculadora,
-      demo: "https://diegoivg98.github.io/Calculadora/",
-      code: "https://github.com/diegoivg98/Calculadora",
+      src: apicrud,
+      demo: "https://api-crud-sigma.vercel.app/?vercelToolbarCode=PpMoXhk5WYq_5uf",
+      code: "https://github.com/marianaaa05/API_CRUD",
+      texto: "API CRUD",
     },
     {
       id: 5,
-      src: TextToSpeech,
-      demo: "https://diegoivg98.github.io/Text-to-Speech/",
-      code: "https://github.com/diegoivg98/Text-to-Speech",
+      src: maquillajeonline,
+      demo: "https://maquillaje-online-avc7.vercel.app/",
+      code: "https://github.com/marianaaa05/MaquillajeOnline",
+      texto: "Tienda de Maquillaje Online",
     },
     {
       id: 6,
-      src: CoinBase,
-      demo: "https://github.com/diegoivg98/Coinbase",
-      code: "https://diegoivg98.github.io/Coinbase/",
+      src: apichatgpt,
+      demo: "https://chat-gpt-theta.vercel.app/",
+      code: "https://github.com/marianaaa05/Chat-gpt",
+      texto: "Api de Chat GPT",
     },
     {
       id: 7,
-      src: CasoFonasa,
-      code: "https://github.com/diegoivg98/Prueba-Fonasa",
+      src: appheroes,
+      demo: "https://app-de-heroes.vercel.app/marvel",
+      code: "https://github.com/marianaaa05/App-de-heroes",
+      texto: "App de Heroes",
     },
-    {
-      id: 8,
-      src: SistemaTicket,
-      code: "https://github.com/diegoivg98/Sistema-Ticket",
-    }
   ];
 
   return (
@@ -68,25 +71,28 @@ const Works = () => {
           <p className="py-6">Revisa algunos de mis proyectos</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {proyectos.map(({ id, src, demo, code }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-12 px-12 sm:px-0 ">
+          {proyectos.map(({ id, src, demo, code, texto }) => (
+            <div key={id} className="shadow-md shadow-[#0B594B] rounded-lg bg-[#059F9B]">
               <img
                 src={src}
-                alt=""
+                alt="Imagenes de referencia"
                 className="rounded-md duration-200 hover:scale-105"
               />
+              <div className="p-4 text-center">
+                <p className="text-2xl font-bold">{texto}</p>
+              </div>
               <div className="flex items-center justify-center">
                 {demo && (
                   <a href={demo}>
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-900 font-bold text-lg">
-                      Demo
+                      Ver
                     </button>
                   </a>
                 )}
                 <a href={code}>
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-900 font-bold text-lg">
-                    Code
+                   Encontrar en Github
                   </button>
                 </a>
               </div>
