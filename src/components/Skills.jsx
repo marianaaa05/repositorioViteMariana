@@ -2,90 +2,73 @@ import React from "react";
 import HTML from "../assets/html5.svg";
 import CSS from "../assets/css.svg";
 import JS from "../assets/javascript.svg";
-import BOOTSTRAP from "../assets/bootstrap.svg";
 import TAILWINDCSS from "../assets/tailwindcss.svg";
-import GIT from "../assets/git.svg";
-import POSTGRESQL from "../assets/postgresql.svg";
-import MYSQL from "../assets/mysql.svg";
+import nextjs from "../assets/nextjs.svg";
+import astro from "../assets/astro.svg";
+import vercel from "../assets/vercel.svg";
+import vite from "../assets/vite.svg";
+import nodejs from "../assets/nodejs.svg";
+import react from "../assets/react.svg";
+
 
 const Skills = () => {
   return (
-      <div name="skills" className="w-full bg-[#a2aebb]">
+      <div name="skills" className="w-full bg-[#0B594B]">
         {/* Container */}
         <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
           <div>
-            <p className="text-4xl font-bold inline border-b-4 border-slate-900">
+            <p className="text-4xl font-bold inline border-b-4 border-[#DF90AD]">
               Tecnologías
             </p>
             <p className="py-4">
-              Estas son algunas tecnologías con las que he desarrollado:
+              Estas son algunas tecnologías que he utilizado y que hasta el momento sigo aprendiendo:
             </p>
           </div>
 
-          <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={HTML} alt="HTML icon" />
+          <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-6 text-center py-8">
+            <div className="shadow-md shadow-[#04c16] hover:scale-110 duration-500 border-4 border-[#DF90AD]">
+              <img className="w-25 mx-auto " src={HTML} alt="HTML icon" />
               <p className="my-4 font-bold">HTML</p>
             </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={CSS} alt="CSS icon" />
+            <div className="shadow-md shadow-[#04c16] hover:scale-110 duration-500 border-4 border-[#DF90AD]">
+              <img className="w-25 mx-auto" src={CSS} alt="CSS icon" />
               <p className="my-4 font-bold">CSS</p>
             </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-24 mx-auto" src={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg'} alt="SASS icon" />
-              <p className="my-4 font-bold">SASS</p>
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-4 border-[#DF90AD]">
+              <img className="w-25 mx-auto" src={react} alt="React icon" />
+              <p className="my-4 font-bold">React</p>
             </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-24 mx-auto" src={JS} alt="JAVASCRIPT icon" />
-              <p className="my-4 font-bold">JAVASCRIPT</p>
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-4 border-[#DF90AD]">
+              <img className="w-25 mx-auto" src={JS} alt="JAVASCRIPT icon" />
+              <p className="my-4 font-bold">JavaScript</p>
             </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-24 mx-auto" src={BOOTSTRAP} alt="BOOTSTRAP Icon" />
-              <p className="my-4 font-bold">BOOTSTRAP</p>
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-4 border-[#DF90AD]">
+              <img className="w-25 mx-auto" src={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'} alt='GITHUB Icon'/>
+              <p className="my-4 font-bold">Github</p>
             </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-24 mx-auto" src={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg'} alt='PHP Icon'/>
-              <p className="my-4 font-bold">PHP</p>
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-4 border-[#DF90AD]">
+              <img className="w-25 mx-auto" src={nextjs} alt='Next.js Icon'/>
+              <p className="my-4 font-bold">Next.js</p>
             </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-24 mx-auto" src={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg'} alt='CODEIGNITER Icon'/>
-              <p className="my-4 font-bold">CODEIGNITER</p>
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-4 border-[#DF90AD]">
+              <img className="w-25 mx-auto" src={astro} alt='Astro Icon'/>
+              <p className="my-4 font-bold">Astro</p>
             </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-24 mx-auto" src={POSTGRESQL} alt='POSTGRESQL Icon'/>
-              <p className="my-4 font-bold">POSTGRESQL</p>
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-4 border-[#DF90AD]">
+              <img className="w-25 mx-auto" src={vercel} alt='Vercel Icon'/>
+              <p className="my-4 font-bold">Vercel</p>
             </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-24 mx-auto" src={MYSQL} alt='MYSQL Icon'/>
-              <p className="my-4 font-bold">MYSQL</p>
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-4 border-[#DF90AD]">
+              <img className="w-40 mx-auto" src={vite} alt='Vite Icon'/>
+              <p className="my-4 font-bold">Vite</p>
             </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-24 mx-auto" src={GIT} alt='GIT Icon'/>
-              <p className="my-4 font-bold">GIT</p>
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-4 border-[#DF90AD]">
+              <img className="w-25 mx-auto" src={nodejs} alt='Node.js Icon'/>
+              <p className="my-4 font-bold">Node.js</p>
             </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-24 mx-auto" src={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'} alt='GITHUB Icon'/>
-              <p className="my-4 font-bold">GITHUB</p>
-            </div>
-          </div>
-
-          <div>
-            <p className="text-4xl font-bold inline border-b-4 border-slate-900">
-              Aprendiendo
-            </p>
-            <p className="py-4">
-              Adquiriendo conocimiento en las siguientes tecnologías:
-            </p>
-          </div>
-
-          <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'} alt="REACT icon" />
-              <p className="my-4 font-bold">REACT</p>
-            </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-32 mx-auto" src={TAILWINDCSS} alt="TAILDWINDCSS icon" />
-              <p className="my-4 font-bold">TAILWIND CSS</p>
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-4 border-[#DF90AD]">
+              <img className="w-25 mx-auto" src={TAILWINDCSS} alt="Tailwind CSS icon" />
+              <p className="my-4 font-bold">Tailwind CSS</p>
             </div>
           </div>
 

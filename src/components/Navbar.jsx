@@ -1,11 +1,8 @@
 import React, { useState } from "react";
-import Logo from "../assets/Logo.png";
-import { FaBars, FaGithub, FaLinkedin, FaTimes } from "react-icons/fa";
+import { FaBars, FaGithub, FaTimes } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsDownload } from "react-icons/bs";
 import { Link } from "react-scroll";
-import Cv from "../assets/CV_Diego_Vistoso.pdf"
 import 'animate.css'
 
 const Navbar = () => {
@@ -110,19 +107,6 @@ const Navbar = () => {
               <HiOutlineMail size={36} />
             </a>
           </li>
-
-
-          {/* <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-30 bg-gray-500">
-            <a
-              className="flex justify-between items-center w-full text-gray-50"
-              href={Cv}
-              download
-            >
-              Curriculum <BsDownload size={36} />
-            </a>
-          </li> */}
-
-
         </ul>
       </div>
     </div>

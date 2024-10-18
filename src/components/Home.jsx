@@ -5,26 +5,29 @@ import foto from "../assets/proyectos/foto.png"
 
 const Home = () => {
   return (
-    
+
     <div name="home" className="w-full h-screen bg-[#02302D] text-white">
       {/* Container */}
-      <img 
-        src= {foto}
-        alt="Foto presentación portafolio"
-        className="w-[400px] h-[400px] ml-28 rounded-full"
-      />
-      
-      <div className="max-w-[1000px] ml-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-stone-900 font-bold text-4xl text-[#DF90AD] sm:text-7xl">Hola!.., soy</p>
+      <div mt-60 className="w-[400px] flex flex-col justify-left items-left">
+        <img
+          src={foto}
+          alt="Foto presentación portafolio"
+          className="w-[400px] h-[400px] ml-60 mt-15 rounded-full border-4 border-[#D96A9E] hover:border-[#059F9B]"
+        />
+      </div>
+
+
+      <div className="max-w-[1000px] mr-20 ml-auto flex flex-col justify-center h-full">
+        <p className="text-stone-90 sm:text-7xl font-bold text-4xl text-[#DF90AD]">Hola!.., soy</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#D96A9E]">Mariana Arredondo</h1>
         <h2 className="text-4xl sm:text-7xl font-bold">
-          Me encuentro en constante aprendízaje sobre desarrollo .
+          Me encuentro en constante aprendízaje sobre desarrollo web.
         </h2>
         <p>2020-2024</p>
         <p className="py-4 max-w[700px] font-serif text-[#D37A0E]">
           Actualmente, me encuentro terminando mi posgrado en Ingeniería Informática.
           En el proceso he tenido la oportunidad de adquirir diferentes nociones sobre creación y desarrollo de sitios web dinámicos
-          utilizando diversas tecnologías y herramientas de programación. En las cuales se destacan: React, Next.js, JavaScript, Tailwind CSS, Astro, Vite, Node.js, Github, y Vercel.
+          utilizando diversas tecnologías y herramientas de programación. En las cuales se destacan: React, Next.js, JavaScript, Tailwind CSS, Astro, Vite, Node.js, Github, Html, CSS y Vercel.
         </p>
         <div>
           <Link to="works" smooth={true} duration={500}>
@@ -37,13 +40,13 @@ const Home = () => {
             </button>
           </Link>
         </div>
-        
-        
+
+
       </div>
-      
-      
+
+
     </div>
-    
+
   );
 };
 
