@@ -8,19 +8,19 @@ const Home = () => {
 
     <div name="home" className="w-full h-screen bg-[#02302D] text-white flex flex-col items-center justify-center lg:flex-row">
       {/* Container 400  */}
-      <div mt-60 className="w-[400px] md:w-[700px] flex flex-col justify-center items-center lg:ml-20 mb-8 lg:mb-0">
+      <div mt-60 className="w-[300px] md:w-[700px] flex flex-col justify-center items-center lg:ml-20 mb-8 lg:mb-0 pt-80 md:pt-3">
         <img
           src={foto}
           alt="Foto presentación portafolio"
-          className="w-[400px] md:w-[300px] lg:w-[400px] h-auto rounded-full border-4 border-[#D96A9E] hover:border-[#059F9B] transition duration-300"
+          className="w-[300px] md:w-[400px] lg:w-[400px] h-auto rounded-full border-4 border-[#D96A9E] hover:border-[#059F9B] transition duration-300"
         />
       </div>
 
 
       <div className="max-w-[1000px] mr-20 ml-auto flex flex-col justify-center h-full">
-        <p className="text-stone-90 sm:text-7xl font-bold text-4xl text-[#DF90AD]">Hola!..,</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-[#D96A9E]">Soy Mariana Arredondo</h1>
-        <h2 className="text-4xl sm:text-7xl font-bold">
+        <p className="text-stone-90 sm:text-5xl font-bold text-4xl text-[#DF90AD]">Hola!..,</p>
+        <h1 className="text-2xl sm:text-5xl font-bold text-[#D96A9E]">Soy Mariana Arredondo</h1>
+        <h2 className="text-2xl sm:text-5xl font-bold">
           Me encuentro en constante aprendízaje sobre desarrollo web.
         </h2>
         <p>2020-2024</p>

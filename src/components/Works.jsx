@@ -14,7 +14,7 @@ const Works = () => {
     {
       id: 1,
       src: portafolio,
-      demo: "https://diegovistoso.netlify.app/",
+      demo: "https://repositorio-vite-mariana.vercel.app/",
       code: "https://github.com/marianaaa05/repositorioViteMariana",
       texto: "Portafolio",
     },
