@@ -17,7 +17,6 @@ const About = () => {
               <br />
               <br />
             </p>
-            <h1> A continuación, presentaré algunos de mis proyectos</h1>
           </div>
         </div>
       </div>

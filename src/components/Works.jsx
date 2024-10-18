@@ -1,4 +1,5 @@
 import React from "react";
+import { HiArrowNarrowRight } from "react-icons/hi";
 
 import portafolio from "../assets/proyectos/portafolio.jpeg"
 import Tienda from "../assets/proyectos/tienda.jpeg"
@@ -62,13 +63,14 @@ const Works = () => {
   ];
 
   return (
-    <div name="works" className="w-full text-slate-900 bg-[#dfe0e2]">
+    <div name="works" className="w-full text-slate-900 bg-[#0B594B]">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 text-gray-900 border-slate-900">
+          <p className="text-4xl font-bold inline border-b-4 text-white border-[#DF90AD]">
             Proyectos
           </p>
-          <p className="py-6">Revisa algunos de mis proyectos</p>
+          <p className="py-6 text-white">Los siguientes son algunos de mis proyectos.</p>
+          <p className="py-6 text-white">Puedes revisarlos!</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-12 px-12 sm:px-0 ">
@@ -85,15 +87,15 @@ const Works = () => {
               <div className="flex items-center justify-center">
                 {demo && (
                   <a href={demo}>
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-900 font-bold text-lg">
-                      Ver
+                    <button className="text-white group border-4 px-6 py-3 my-2 flex items-center bg-[#0B594B] border-[#DF90AD] hover:bg-[#D96A9E] hover:border-[#D96AE] rounded-lg bg-[#059F9B]">
+                      Visualizar
                     </button>
                   </a>
                 )}
                 <a href={code}>
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-900 font-bold text-lg">
-                   Encontrar en Github
-                  </button>
+                <button className="text-white group border-4 px-6 py-3 my-2 flex items-center bg-[#0B594B] border-[#DF90AD] hover:bg-[#D96A9E] hover:border-[#D96AE] rounded-lg">
+                      Encontrar en Github
+                    </button>
                 </a>
               </div>
             </div>
