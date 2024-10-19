@@ -9,7 +9,7 @@ const Home = () => {
     // <div name="home" className="w-full h-screen bg-[#02302D] text-white flex flex-col items-center justify-center lg:flex-row">
     <div name="home" className="w-full h-[1500px] md:h-[1000px] bg-[#02302D] text-white flex flex-col items-center justify-center lg:flex-row">
       {/* Container 400  */}
-      <div className="w-[300px] md:w-[700px] flex flex-col justify-center items-center lg:ml-20 mb-8 lg:mb-0 pt-80 md:pt-3">
+      <div className="w-[300px] md:w-[700px] flex flex-col justify-center items-center lg:ml-20 lg:-mt-40 mb-8 lg:mb-0 pt-80 md:pt-3">
         <img
           src={foto}
           alt="Foto presentación portafolio"
@@ -18,7 +18,7 @@ const Home = () => {
       </div>
 
 
-      <div className="max-w-[1000px] mr-20 ml-auto flex flex-col justify-center h-full">
+      <div className="max-w-[1000px] mr-20 ml-auto flex flex-col justify-center h-full lg:-mt-40">
         <p className="text-stone-90 sm:text-5xl font-bold text-4xl text-[#DF90AD]">Hola!..,</p>
         <h1 className="text-2xl sm:text-5xl font-bold text-[#D96A9E]">Soy Mariana Arredondo</h1>
         <h2 className="text-2xl sm:text-5xl font-bold">
