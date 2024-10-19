@@ -70,15 +70,10 @@ const Navbar = () => {
             Proyectos
           </Link>
         </li>
-        <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-            Contacto
-          </Link>
-        </li>
       </ul>
 
       {/* Iconos RRSS */}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0 animate__animated animate__fadeInLeft">
+      <div className="hidden lg:flex fixed flex-col top-[35%] left-0 animate__animated animate__fadeInLeft sm:flex">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#059F9B]">
             <a
