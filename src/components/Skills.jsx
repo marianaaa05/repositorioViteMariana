@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"; 
 import HTML from "../assets/html5.svg";
 import CSS from "../assets/css.svg";
 import JS from "../assets/javascript.svg";
