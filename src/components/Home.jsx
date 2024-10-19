@@ -6,8 +6,8 @@ import foto from "../assets/proyectos/foto.png"
 const Home = () => {
   return (
 
-    <div name="home" className="w-full h-screen bg-[#02302D] text-white flex flex-col items-center justify-center lg:flex-row">
-
+    // <div name="home" className="w-full h-screen bg-[#02302D] text-white flex flex-col items-center justify-center lg:flex-row">
+    <div name="home" className="w-full h-[1500px] md:h-[1000px] bg-[#02302D] text-white flex flex-col items-center justify-center lg:flex-row">
       {/* Container 400  */}
       <div className="w-[300px] md:w-[700px] flex flex-col justify-center items-center lg:ml-20 mb-8 lg:mb-0 pt-80 md:pt-3">
         <img
