@@ -28,47 +28,47 @@ const Skills = () => {
           <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-6 text-center py-8">
             <div className="shadow-md shadow-[#D96A9E] hover:scale-110 duration-500 border-4 border-[#DF90AD]">
               <img className="w-25 mx-auto " src={HTML} alt="HTML icon" />
-              <p className="my-4 font-bold">HTML</p>
+              <p className="my-4 font-bold text-white">HTML</p>
             </div>
             <div className="shadow-md shadow-[#D96A9E] hover:scale-110 duration-500 border-4 border-[#DF90AD]">
               <img className="w-25 mx-auto" src={CSS} alt="CSS icon" />
-              <p className="my-4 font-bold">CSS</p>
+              <p className="my-4 font-bold text-white">CSS</p>
             </div>
             <div className="shadow-md shadow-[#D96A9E] hover:scale-110 duration-500 border-4 border-[#DF90AD]">
               <img className="w-25 mx-auto" src={react} alt="React icon" />
-              <p className="my-4 font-bold">React</p>
+              <p className="my-4 font-bold text-white">React</p>
             </div>
             <div className="shadow-md shadow-[#D96A9E] hover:scale-110 duration-500 border-4 border-[#DF90AD]">
               <img className="w-25 mx-auto" src={JS} alt="JAVASCRIPT icon" />
-              <p className="my-4 font-bold">JavaScript</p>
+              <p className="my-4 font-bold text-white">JavaScript</p>
             </div>
             <div className="shadow-md shadow-[#D96A9E] hover:scale-110 duration-500 border-4 border-[#DF90AD]">
               <img className="w-25 mx-auto" src={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'} alt='GITHUB Icon'/>
-              <p className="my-4 font-bold">Github</p>
+              <p className="my-4 font-bold text-white">Github</p>
             </div>
             <div className="shadow-md shadow-[#D96A9E] hover:scale-110 duration-500 border-4 border-[#DF90AD]">
               <img className="w-25 mx-auto" src={nextjs} alt='Next.js Icon'/>
-              <p className="my-4 font-bold">Next.js</p>
+              <p className="my-4 font-bold text-white">Next.js</p>
             </div>
             <div className="shadow-md shadow-[#D96A9E] hover:scale-110 duration-500 border-4 border-[#DF90AD]">
               <img className="w-25 mx-auto" src={astro} alt='Astro Icon'/>
-              <p className="my-4 font-bold">Astro</p>
+              <p className="my-4 font-bold text-white">Astro</p>
             </div>
             <div className="shadow-md shadow-[#D96A9E] hover:scale-110 duration-500 border-4 border-[#DF90AD]">
               <img className="w-25 mx-auto" src={vercel} alt='Vercel Icon'/>
-              <p className="my-4 font-bold">Vercel</p>
+              <p className="my-4 font-bold text-white">Vercel</p>
             </div>
             <div className="shadow-md shadow-[#D96A9E] hover:scale-110 duration-500 border-4 border-[#DF90AD]">
               <img className="w-40 mx-auto" src={vite} alt='Vite Icon'/>
-              <p className="my-4 font-bold">Vite</p>
+              <p className="my-4 font-bold text-white">Vite</p>
             </div>
             <div className="shadow-md shadow-[#D96A9E] hover:scale-110 duration-500 border-4 border-[#DF90AD]">
               <img className="w-25 mx-auto" src={nodejs} alt='Node.js Icon'/>
-              <p className="my-4 font-bold">Node.js</p>
+              <p className="my-4 font-bold text-white">Node.js</p>
             </div>
             <div className="shadow-md shadow-[#D96A9E] hover:scale-110 duration-500 border-4 border-[#DF90AD]">
               <img className="w-25 mx-auto" src={TAILWINDCSS} alt="Tailwind CSS icon" />
-              <p className="my-4 font-bold">Tailwind CSS</p>
+              <p className="my-4 font-bold text-white">Tailwind CSS</p>
             </div>
           </div>
 
