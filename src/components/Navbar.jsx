@@ -185,9 +185,9 @@ const Navbar = () => {
       </ul>
 
       {/* Iconos de contacto */}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0 animate__animated animate__fadeInLeft sm:flex">
-        <ul>
-          <li className= "w-[60px] h-[60px] sm:w-[160px] sm:h-[60px] flex justify-center sm:justify-between items-center sm:ml-[-100px] hover:sm:ml-[-10px] duration-300 bg-[#059F9B] sm:rounded-r-lg mb-2 mr-2 sm:mr-0">
+      <div className="flex fixed flex-col bottom-4 right-4 sm:top-[35%] sm:left-0 animate__animated animate__fadeInLeft">
+        <ul className="flex sm:flex-col">
+          <li className="w-[60px] h-[60px] sm:w-[160px] sm:h-[60px] flex justify-center sm:justify-between items-center sm:ml-[-100px] hover:sm:ml-[-10px] duration-300 bg-[#059F9B] sm:rounded-r-lg mb-2 mr-2 sm:mr-0">
             <a
               className="flex justify-between items-center w-full text-white px-1.5"
               href="https://wa.me/573234566707"
