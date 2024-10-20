@@ -115,6 +115,7 @@
 
 import React, { useState } from "react"
 import { FaBars, FaGithub, FaTimes, FaWhatsapp, FaEnvelope } from "react-icons/fa"
+import { IoLogoWhatsapp } from "react-icons/io"
 import { Link } from "react-scroll"
 import 'animate.css'
 
@@ -186,9 +187,9 @@ const Navbar = () => {
       {/* Iconos de contacto */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0 animate__animated animate__fadeInLeft sm:flex">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#059F9B] rounded-r-lg mb-2">
+          <li className= "w-[60px] h-[60px] sm:w-[160px] sm:h-[60px] flex justify-center sm:justify-between items-center sm:ml-[-100px] hover:sm:ml-[-10px] duration-300 bg-[#059F9B] sm:rounded-r-lg mb-2 mr-2 sm:mr-0">
             <a
-              className="flex justify-between items-center w-full text-white px-4"
+              className="flex justify-between items-center w-full text-white px-1.5"
               href="https://wa.me/573234566707"
               target="_blank"
               rel="noopener noreferrer"
@@ -197,9 +198,9 @@ const Navbar = () => {
               <FaWhatsapp size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#DF90AD] rounded-r-lg mb-2">
+          <li className="w-[60px] h-[60px] sm:w-[160px] sm:h-[60px] flex justify-center sm:justify-between items-center sm:ml-[-100px] hover:sm:ml-[-10px] duration-300 bg-[#DF90AD] sm:rounded-r-lg mb-2 mr-2 sm:mr-0">
             <a
-              className="flex justify-between items-center w-full text-white px-4"
+              className="flex justify-between items-center w-full text-white px-1.5"
               href="https://github.com/marianaaa05"
               target="_blank"
               rel="noopener noreferrer"
@@ -208,9 +209,9 @@ const Navbar = () => {
               <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#059F9B] rounded-r-lg">
+          <li className="w-[60px] h-[60px] sm:w-[160px] sm:h-[60px] flex justify-center sm:justify-between items-center sm:ml-[-100px] hover:sm:ml-[-10px] duration-300 bg-[#059F9B] sm:rounded-r-lg mb-2 mr-2 sm:mr-0">
             <a
-              className="flex justify-between items-center w-full text-white px-4"
+              className="flex justify-between items-center w-full text-white px-1.5"
               href="mailto:nanaarredondo220@gmail.com"
             >
               Correo
