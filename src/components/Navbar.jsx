@@ -185,37 +185,39 @@ const Navbar = () => {
       </ul>
 
       {/* Iconos de contacto */}
-      <div className="flex fixed flex-col bottom-4 right-4 sm:top-[35%] sm:left-0 animate__animated animate__fadeInLeft">
+      <div className="flex fixed flex-col bottom-4 right-4 sm:top-[40%] sm:rigth-0 animate__animated animate__fadeInRigth z-50">
         <ul className="flex sm:flex-col">
-          <li className="w-[60px] h-[60px] sm:w-[160px] sm:h-[60px] flex justify-center sm:justify-between items-center sm:ml-[-100px] hover:sm:ml-[-10px] duration-300 bg-[#059F9B] sm:rounded-r-lg mb-2 mr-2 sm:mr-0">
+          <li className="w-[60px] h-[60px] sm:w-[180px] sm:h-[80px] border-white border-2 flex justify-center sm:justify-between items-center sm:ml-[-100px] hover:sm:ml-[-10px] duration-300 bg-[#059F9B] sm:rounded-l-lg rounded-r-lg mb-2 mr-2 sm:mr-0">
+          
             <a
               className="flex justify-between items-center w-full text-white px-1.5"
               href="https://wa.me/573234566707"
               target="_blank"
               rel="noopener noreferrer"
             >
-              WhatsApp
-              <FaWhatsapp size={30} />
+              
+              <FaWhatsapp size={50} />
+              <span className="hidden sm:block ml-2">WhatsApp</span>
             </a>
           </li>
-          <li className="w-[60px] h-[60px] sm:w-[160px] sm:h-[60px] flex justify-center sm:justify-between items-center sm:ml-[-100px] hover:sm:ml-[-10px] duration-300 bg-[#DF90AD] sm:rounded-r-lg mb-2 mr-2 sm:mr-0">
+          <li className="w-[60px] h-[60px] sm:w-[180px] sm:h-[80px] border-white border-2 flex justify-center sm:justify-between items-center sm:ml-[-100px] hover:sm:ml-[-10px] duration-300 bg-[#DF90AD] sm:rounded-l-lg rounded-r-lg mb-2 mr-2 sm:mr-0">
             <a
               className="flex justify-between items-center w-full text-white px-1.5"
               href="https://github.com/marianaaa05"
               target="_blank"
               rel="noopener noreferrer"
             >
-              GitHub
-              <FaGithub size={30} />
+              <FaGithub size={50} />
+              <span className="hidden sm:block ml-2">Github</span>
             </a>
           </li>
-          <li className="w-[60px] h-[60px] sm:w-[160px] sm:h-[60px] flex justify-center sm:justify-between items-center sm:ml-[-100px] hover:sm:ml-[-10px] duration-300 bg-[#059F9B] sm:rounded-r-lg mb-2 mr-2 sm:mr-0">
+          <li className="w-[60px] h-[60px] sm:w-[180px] sm:h-[80px] border-white border-2 flex justify-center sm:justify-between items-center sm:ml-[-100px] hover:sm:ml-[-10px] duration-300 bg-[#059F9B] sm:rounded-l-lg rounded-r-lg mb-2 mr-2 sm:mr-0">
             <a
               className="flex justify-between items-center w-full text-white px-1.5"
               href="mailto:nanaarredondo220@gmail.com"
             >
-              Correo
-              <FaEnvelope size={30} />
+              <FaEnvelope size={50} />
+              <span className="hidden sm:block ml-2">Correo</span>
             </a>
           </li>
         </ul>
